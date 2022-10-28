@@ -42,12 +42,15 @@ nav ul {
 nav {
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
+    position: sticky;
+    top: 0;
+    background-color:rgb(240, 236, 236);
 }
 
 li {
     display: inline-block;
-    padding: 0.3em;
-
+    text-align: center;
+    padding: 5px;
 }
 
 
@@ -66,3 +69,19 @@ a {
     color:#777;
 }
 
+
+.more-articles {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+.more-articles2 {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+}
